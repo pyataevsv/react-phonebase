@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
+import * as testdata from './test'
 import Spinner from './components/Spinner'
 import { BrowserRouter as Router, Route, Redirect, } from "react-router-dom"
 import Login from './components/Login'
@@ -11,7 +12,7 @@ const Fetchwrapper = () => {
   const [feed, setFeed] = useState(null)
   const maxRef = useRef({ current: true })
   const fetchRef = useRef({ current: true })
-  const url = 'http://www.filltext.com/?rows=' + rows + '&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}'
+  const url = 'https://www.filltext.com/?rows=' + rows + '&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}'
 
 
   useEffect(() => {
@@ -19,24 +20,30 @@ const Fetchwrapper = () => {
     if (fetchRef.current) {
 
       fetchRef.current = false
+
       setFetchState('try')
       setTimeout(() => {
-        fetch(url)
-          .then(resp => {
-            if (!resp.ok) throw new Error(resp.statusText)
-            return resp
-          })
-          .then(resp => resp.json())
-          .then(resp => {
-            maxRef.current = Math.max(...resp.reduce((x, y) => x.concat([y.id]), []))
-            //split data to pages
-            setFeed(resp)
-            setFetchState('win')
-          })
-          .catch(err => setFetchState('fail'))
-      }, 1000);
+        //   fetch(url)
+        //     .then(resp => {
+        //       if (!resp.ok) throw new Error(resp.statusText)
+        //       return resp
+        //     })
+        //     .then(resp => resp.json())
+        //     .then(resp => {
+        //       maxRef.current = Math.max(...resp.reduce((x, y) => x.concat([y.id]), []))
+        //       
+        //       setFeed(resp)
+        //       setFetchState('win')
+        //     })
+        //     .catch(err => setFetchState('fail'))
+        let resp = (rows === 36) ? JSON.parse(testdata.test36) : JSON.parse(testdata.test1000)
+        maxRef.current = Math.max(...resp.reduce((x, y) => x.concat([y.id]), []))
+        //       
+        setFeed(resp)
+        setFetchState('win')
+      }, 2000);
     }
-  }, [url])
+  }, [rows])
 
 
 

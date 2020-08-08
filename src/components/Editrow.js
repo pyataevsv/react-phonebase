@@ -54,15 +54,15 @@ export default function Editrow(props) {
                             <div className="field has-addons">
 
                                 <div className="control">
-                                    <Field className={errors.firstName && touched.firstName ? 'input is-danger' : 'input'} name="firstName" type="text" placeholder="Nikita" />
+                                    <Field className={errors.firstName && touched.firstName ? 'input is-danger' : 'input'} name="firstName" type="text" placeholder="Jack" />
                                     {errors.firstName && touched.firstName ? (<div className='err'>{errors.firstName}</div>) : null}
                                 </div>
                                 <div className="control">
-                                    <Field className={errors.lastName && touched.lastName ? 'input is-danger' : 'input'} name="lastName" placeholder="Shevlyakov" />
+                                    <Field className={errors.lastName && touched.lastName ? 'input is-danger' : 'input'} name="lastName" placeholder="Sparrow" />
                                     {errors.lastName && touched.lastName ? (<div className='err'>{errors.lastName}</div>) : null}
                                 </div>
                                 <div className="control">
-                                    <Field className={errors.email && touched.email ? 'input is-danger' : 'input'} name="email" type="text" placeholder="shevlyakov.n@future-group.ru" />
+                                    <Field className={errors.email && touched.email ? 'input is-danger' : 'input'} name="email" type="text" placeholder="jsparrow@future-group.ru" />
                                     {errors.email && touched.email ? (<div className='err'>{errors.email}</div>) : null}
                                 </div>
                                 <div className="control">
