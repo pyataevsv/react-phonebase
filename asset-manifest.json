@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/phonebase/static/css/main.0722a08d.chunk.css",
+    "main.js": "/phonebase/static/js/main.71526cb5.chunk.js",
+    "main.js.map": "/phonebase/static/js/main.71526cb5.chunk.js.map",
+    "runtime-main.js": "/phonebase/static/js/runtime-main.a974881e.js",
+    "runtime-main.js.map": "/phonebase/static/js/runtime-main.a974881e.js.map",
+    "static/js/2.7378d3b9.chunk.js": "/phonebase/static/js/2.7378d3b9.chunk.js",
+    "static/js/2.7378d3b9.chunk.js.map": "/phonebase/static/js/2.7378d3b9.chunk.js.map",
+    "index.html": "/phonebase/index.html",
+    "precache-manifest.5ef4be83f627dd40b6477a05df3afa6e.js": "/phonebase/precache-manifest.5ef4be83f627dd40b6477a05df3afa6e.js",
+    "service-worker.js": "/phonebase/service-worker.js",
+    "static/css/main.0722a08d.chunk.css.map": "/phonebase/static/css/main.0722a08d.chunk.css.map",
+    "static/js/2.7378d3b9.chunk.js.LICENSE.txt": "/phonebase/static/js/2.7378d3b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a974881e.js",
+    "static/js/2.7378d3b9.chunk.js",
+    "static/css/main.0722a08d.chunk.css",
+    "static/js/main.71526cb5.chunk.js"
+  ]
+}
