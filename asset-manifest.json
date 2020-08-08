@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/phonebase/static/css/main.0722a08d.chunk.css",
-    "main.js": "/phonebase/static/js/main.71526cb5.chunk.js",
-    "main.js.map": "/phonebase/static/js/main.71526cb5.chunk.js.map",
-    "runtime-main.js": "/phonebase/static/js/runtime-main.a974881e.js",
-    "runtime-main.js.map": "/phonebase/static/js/runtime-main.a974881e.js.map",
-    "static/js/2.7378d3b9.chunk.js": "/phonebase/static/js/2.7378d3b9.chunk.js",
-    "static/js/2.7378d3b9.chunk.js.map": "/phonebase/static/js/2.7378d3b9.chunk.js.map",
-    "index.html": "/phonebase/index.html",
-    "precache-manifest.5ef4be83f627dd40b6477a05df3afa6e.js": "/phonebase/precache-manifest.5ef4be83f627dd40b6477a05df3afa6e.js",
-    "service-worker.js": "/phonebase/service-worker.js",
-    "static/css/main.0722a08d.chunk.css.map": "/phonebase/static/css/main.0722a08d.chunk.css.map",
-    "static/js/2.7378d3b9.chunk.js.LICENSE.txt": "/phonebase/static/js/2.7378d3b9.chunk.js.LICENSE.txt"
+    "main.css": "/react-phonebase/static/css/main.0722a08d.chunk.css",
+    "main.js": "/react-phonebase/static/js/main.71526cb5.chunk.js",
+    "main.js.map": "/react-phonebase/static/js/main.71526cb5.chunk.js.map",
+    "runtime-main.js": "/react-phonebase/static/js/runtime-main.5eb4cb39.js",
+    "runtime-main.js.map": "/react-phonebase/static/js/runtime-main.5eb4cb39.js.map",
+    "static/js/2.7378d3b9.chunk.js": "/react-phonebase/static/js/2.7378d3b9.chunk.js",
+    "static/js/2.7378d3b9.chunk.js.map": "/react-phonebase/static/js/2.7378d3b9.chunk.js.map",
+    "index.html": "/react-phonebase/index.html",
+    "precache-manifest.9184909c33c4218e628a92e6b9c94c8d.js": "/react-phonebase/precache-manifest.9184909c33c4218e628a92e6b9c94c8d.js",
+    "service-worker.js": "/react-phonebase/service-worker.js",
+    "static/css/main.0722a08d.chunk.css.map": "/react-phonebase/static/css/main.0722a08d.chunk.css.map",
+    "static/js/2.7378d3b9.chunk.js.LICENSE.txt": "/react-phonebase/static/js/2.7378d3b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a974881e.js",
+    "static/js/runtime-main.5eb4cb39.js",
     "static/js/2.7378d3b9.chunk.js",
     "static/css/main.0722a08d.chunk.css",
     "static/js/main.71526cb5.chunk.js"
