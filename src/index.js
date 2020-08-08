@@ -12,7 +12,7 @@ const Fetchwrapper = () => {
   const [feed, setFeed] = useState(null)
   const maxRef = useRef({ current: true })
   const fetchRef = useRef({ current: true })
-  const url = 'https://www.filltext.com/?rows=' + rows + '&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}'
+  // const url = 'https://www.filltext.com/?rows=' + rows + '&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}'
 
 
   useEffect(() => {
