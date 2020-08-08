@@ -1,1 +1,1 @@
-## Look this app [here](http://pyataevsv.github.io/react-phonebase)
+## Checkout this app [here](http://pyataevsv.github.io/react-phonebase)
